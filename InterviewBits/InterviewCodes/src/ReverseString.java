@@ -10,11 +10,16 @@ public class ReverseString {
       for(int i=a.length-1;i>=0;i--){      
        sb.append(a[i]);
       }
-      System.out.println(sb);
+      String palin= "HiiH";
+     // System.out.println(sb.toString());
+      System.out.println(palin);
+      System.out.println(sb.toString().equals(palin)); // palindrome check
     }
 
     public static void main(String[] args) {
-        ReverseString.reverse("Vinay");
+      
+      //  ReverseString.reverse("Vinay");
+      ReverseString.reverse("HiiH");
     }
 
 }
